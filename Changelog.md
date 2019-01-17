@@ -8,6 +8,7 @@ Compiler Features:
 
 
 Bugfixes:
+ * Type Checker: Disallow calldata structs.
  * Yul: Check that arguments to ``dataoffset`` and ``datasize`` are literals at parse time and properly take this into account in the optimizer.
 
 
